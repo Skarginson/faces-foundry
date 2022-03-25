@@ -1,0 +1,28 @@
+{
+  "name": "faces",
+  "title": "F.A.C.E.S",
+  "description": "The F.A.C.E.S system for FoundryVTT!",
+  "version": "1.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "9",
+  "author": "Asacolips",
+  "esmodules": ["module/faces.mjs"],
+  "styles": ["css/faces.css"],
+  "scripts": [],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
+  "gridDistance": 1,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "LICENSE.txt"
+}
