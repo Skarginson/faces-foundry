@@ -5,7 +5,7 @@
   "version": "1.0",
   "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion": "9",
-  "author": "Asacolips",
+  "author": "Skarginson",
   "esmodules": ["module/faces.mjs"],
   "styles": ["css/faces.css"],
   "scripts": [],
@@ -13,7 +13,7 @@
   "languages": [
     {
       "lang": "fr",
-      "name": "Français",
+      "name": "Francais",
       "path": "lang/fr.json"
     }
   ],
@@ -21,8 +21,8 @@
   "gridUnits": "m",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
-  "url": "",
-  "manifest": "",
-  "download": "",
+  "url": "https://github.com/Skarginson/faces-foundry",
+  "manifest": "https://raw.githubusercontent.com/Skarginson/faces-foundry/master/system.json",
+  "download": "https://github.com/Skarginson/faces-foundry.zip",
   "license": "LICENSE.txt"
 }
