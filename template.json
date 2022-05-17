@@ -1,17 +1,32 @@
 {
   "Actor": {
-    "types": ["character", "npc"],
+    "types": ["character", "npc", "vehicule"],
     "templates": {
       "base": {
-        "health": {
-          "value": 10,
-          "min": 0,
-          "max": 10
+        "force" :{
+          "value" : 4,
+          "min" : 0,
+          "max" : 20
         },
-        "power": {
-          "value": 5,
-          "min": 0,
-          "max": 5
+        "agilite" :{
+          "value" : 4,
+          "min" : 0,
+          "max" : 20
+        },
+        "caractere" :{
+          "value" : 4,
+          "min" : 0,
+          "max" : 20
+        },
+        "esprit" :{
+          "value" : 4,
+          "min" : 0,
+          "max" : 20
+        },
+        "sens" :{
+          "value" : 4,
+          "min" : 0,
+          "max" : 20
         },
         "biography": ""
       }
@@ -24,33 +39,26 @@
         }
       },
       "abilities": {
-        "str": {
-          "value": 10
-        },
-        "dex": {
-          "value": 10
-        },
-        "con": {
-          "value": 10
-        },
-        "int": {
-          "value": 10
-        },
-        "wis": {
-          "value": 10
-        },
-        "cha": {
-          "value": 10
-        }
       }
     },
     "npc": {
       "templates": ["base"],
-      "cr": 0
+      "prot": 0,
+      "degats": 0,
+      "PV": 0
+    },
+    "vehicule": {
+      "templates": ["base"],
+      "taille": 1,
+      "vitesse": 4,
+      "maniabilité": 0,
+      "special": "",
+      "structure": 10,
+      "prix": 0 
     }
   },
   "Item": {
-    "types": ["item", "feature", "spell"],
+    "types": ["item", "talents", "spell"],
     "templates": {
       "base": {
         "description": ""
@@ -62,7 +70,7 @@
       "weight": 0,
       "formula": "d20 + @str.mod + ceil(@lvl / 2)"
     },
-    "feature": {
+    "talents": {
       "templates": ["base"]
     },
     "spell": {
