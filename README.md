@@ -1,5 +1,5 @@
 # F.A.C.E.S System WIP :
-Création du système F.A.C.E.S pour Foundry VTT. Ceci est un WIP et fait partie de mes premiers projets de code et le premier système que je crée pour Foundry. 
+Création du système F.A.C.E.S pour Foundry VTT. Ceci est le premier système que je crée pour Foundry. 
 
 
 <!-- # Boilerplate System
